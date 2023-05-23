@@ -11,7 +11,7 @@ on:
 jobs:
   publish-image:
     name: Build and push Docker image
-    uses: swissgrc/.github/.github/workflows/publish-image.yml@947fcf43f20b13119aa2c2613be3ceee6ca515c5
+    uses: swissgrc/.github/.github/workflows/publish-image.yml@main
     with:
       image-name: swissgrc/azure-pipelines-dotnet
       latest-tag: true
