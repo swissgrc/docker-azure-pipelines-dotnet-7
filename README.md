@@ -33,8 +33,8 @@ The following example shows the container used for a deployment step which shows
 
 ### Tags
 
-| Tag        | Description                                                                                     | Base Image       | Docker CLI | Docker Compose | .NET SDK | Git                  | Git LFS | Size                                                                                                                             |
-|------------|-------------------------------------------------------------------------------------------------|------------------|------------|----------------|----------|----------------------|---------|----------------------------------------------------------------------------------------------------------------------------------|
-| unstable   | Latest unstable release (from `develop` branch)                                                 | debian:11.7-slim | 24.0.1     | 2.18.1         | 7.0.302  | 1:2.39.2-1~bpo11+1   | 3.3.0   | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-dotnet/unstable?style=flat-square)  |
+| Tag      | Description                                     | Base Image                         | .NET SDK | Size                                                                                                                            |
+|----------|-------------------------------------------------|------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------|
+| unstable | Latest unstable release (from `develop` branch) | swissgrc/azure-piplines-git:2.39.2 | 7.0.302  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-dotnet/unstable?style=flat-square) |
 
 [Azure Pipelines container jobs]: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases
