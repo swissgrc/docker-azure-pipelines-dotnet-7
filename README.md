@@ -33,8 +33,11 @@ The following example shows the container used for a deployment step which shows
 
 ### Tags
 
-| Tag        | Description                                     | Base Image                         | .NET SDK | Size                                                                                                                            |
-|------------|-------------------------------------------------|------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------|
-| 7-unstable | Latest unstable release (from `develop` branch) | swissgrc/azure-piplines-git:2.39.2 | 7.0.302  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-dotnet/unstable?style=flat-square) |
+| Tag        | Description                                                                                     | Base Image                         | .NET SDK | Size                                                                                                                              |
+|------------|-------------------------------------------------------------------------------------------------|------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------|
+| latest     | Latest stable release (from `main` branch)                                                      | swissgrc/azure-piplines-git:2.39.2 | 7.0.302  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-dotnet/latest?style=flat-square)     |
+| 7          | Identical to `latest` tag                                                                       |                                    |          | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-dotnet/7?style=flat-square)          |
+| 7-unstable | Latest unstable release (from `develop` branch)                                                 | swissgrc/azure-piplines-git:2.39.2 | 7.0.302  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-dotnet/7-unstable?style=flat-square) |
+| 7.0.302    | [.NET SDK 7.0.302](https://github.com/dotnet/core/blob/main/release-notes/7.0/7.0.5/7.0.302.md) | swissgrc/azure-piplines-git:2.39.2 | 7.0.302  | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-dotnet/7.0.302?style=flat-square)    |
 
 [Azure Pipelines container jobs]: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases
