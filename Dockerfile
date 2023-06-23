@@ -40,7 +40,7 @@ COPY --from=build /etc/apt/sources.list.d/ /etc/apt/sources.list.d
 # Install .NET 7
 
 # renovate: datasource=github-tags depName=dotnet/sdk extractVersion=^v(?<version>.*)$
-ENV DOTNET_VERSION=7.0.304
+ENV DOTNET_VERSION=7.0.305
 
 ENV \
     # Do not show first run text
