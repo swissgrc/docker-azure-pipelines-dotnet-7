@@ -11,7 +11,7 @@ FROM base AS build
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # renovate: datasource=repology depName=debian_11/curl versioning=loose
-ENV CURL_VERSION=7.74.0-1.3+deb11u7
+ENV CURL_VERSION=7.74.0-1.3+deb11u9
 
 RUN apt-get update -y && \
   # Install necessary dependencies
@@ -40,7 +40,7 @@ COPY --from=build /etc/apt/sources.list.d/ /etc/apt/sources.list.d
 # Install .NET 7
 
 # renovate: datasource=github-tags depName=dotnet/sdk extractVersion=^v(?<version>.*)$
-ENV DOTNET_VERSION=7.0.401
+ENV DOTNET_VERSION=7.0.402
 
 ENV \
     # Do not show first run text
